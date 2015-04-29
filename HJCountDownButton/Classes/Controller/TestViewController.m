@@ -28,7 +28,6 @@
 //    countDownButton.againTitle = @"重新获取";
 //    countDownButton.leftSecondTitle = @"还剩 %ld 秒";
     [self.view addSubview:countDownButton];
-    countDownButton.countDownClick(countDownButton);
 }
 
 #pragma mark - HJCountDownButtonDelegate
