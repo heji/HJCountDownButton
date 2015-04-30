@@ -13,6 +13,11 @@ Add HJCountDownButtonDelegate for Controller:
 
 ```objc
 <HJCountDownButtonDelegate>
+
+- (void)countDownButtonDidClick:(HJCountDownButton *)timeButton {
+	// do something
+}
+
 ```
 Initialize HJCountDownButton:
 
